@@ -1,10 +1,14 @@
 <header class="banner">
-  <div class="container">
-    <a class="brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
-    <nav class="nav-primary">
-      @if (has_nav_menu('primary_navigation'))
-        {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
-      @endif
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+      <a class="navbar-brand" href="{{ home_url('/') }}"><img src="./resources/assets/images/logo.svg" alt="Share Arizona" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          @if (has_nav_menu('primary_navigation'))
+            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
+          @endif
+      </div>
     </nav>
-  </div>
 </header>
+

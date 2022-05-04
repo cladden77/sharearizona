@@ -2,40 +2,65 @@
 @import "~bootstrap/scss/functions";
 
 $theme-colors: (
-  primary: #525ddc,
+  primary: #003658,
   secondary: #59626c,
   lightGray: #dedede,
   offWhite: #f5f5f5
 );
 
 // Typography
+// Fonts
+$primaryFont: "Montserrat Regular", sans-serif;
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/../fonts/Montserrat-Regular.ttf") format("ttf");
+}
+
+$headerFont: "Bebas Neue", sans-serif;
+
+@font-face {
+  font-family: "Bebas Regular";
+  src: url("/../fonts/BebasNeue-Regular.ttf") format("ttf");
+}
+
 h1 {
-  font-size: 2em;
+  font-size: 5em;
+  font-family: $headerFont;
 }
 
 h2 {
   font-size: 1.5em;
   padding: 30px;
+  font-family: $primaryFont;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.17em;
+  font-family: $primaryFont;
+  font-weight: 700;
 }
 
 h4 {
   font-size: 1em;
+  font-family: $primaryFont;
+  font-weight: 500;
 }
 
 h5 {
   font-size: 0.83em;
+  font-family: $primaryFont;
 }
 
 h6 {
   font-size: 0.75em;
+  font-family: $primaryFont;
 }
 
 p {
   color: map-get($theme-colors, "primary");
+  font-family: $primaryFont;
 }
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */

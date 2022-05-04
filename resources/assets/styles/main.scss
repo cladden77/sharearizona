@@ -15,7 +15,6 @@
 
 // Common
 @import "common/global";
-@import "common/fonts";
 
 // Components
 @import "components/buttons";
@@ -30,3 +29,7 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+
+//flexible content
+@import "layouts/flexible-content/hero";
+@import "layouts/flexible-content/one-col";
