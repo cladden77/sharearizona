@@ -1,0 +1,14 @@
+// Fonts
+$primaryFont: "Montserrat Regular", sans-serif;
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/../fonts/Montserrat-Regular.ttf") format("ttf");
+}
+
+$headerFont: "Bebas Neue", sans-serif;
+
+@font-face {
+  font-family: "Bebas Regular";
+  src: url("/../fonts/BebasNeue-Regular.ttf") format("ttf");
+}
