@@ -1,5 +1,5 @@
 <header class="banner">
-    <nav class="navbar navbar-expand-lg py-3">
+    <nav class="navbar sticky-top navbar-expand-lg py-3">
       <div class="container">
       <a class="navbar-brand" href="{{ home_url('/') }}"><img alt="Share Arizona" src="/app/uploads/2022/05/sharearizona-logo.svg" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
