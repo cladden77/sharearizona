@@ -12,6 +12,10 @@
 .navbar-brand {
   color: map-get($theme-colors, "primary");
 
+  img {
+    display: block;
+  }
+
   &:hover {
     color: map-get($theme-colors, "secondary");
   }
