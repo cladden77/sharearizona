@@ -72,6 +72,9 @@ add_action('after_setup_theme', function () {
     add_editor_style(asset_path('styles/main.css'));
 }, 20);
 
+// Add Image sizes
+add_image_size('max', 2048, 2048, false);
+
 /**
  * Register sidebars
  */
