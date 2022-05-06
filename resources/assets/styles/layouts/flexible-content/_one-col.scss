@@ -5,12 +5,17 @@
     margin: auto;
 
     h2 {
-      color: map-get($theme-colors, "secondary");
+      color: map-get($theme-colors, "primary");
       font-size: 2.5em;
     }
 
     .one-col__content {
       line-height: 2rem;
+
+      p {
+        color: map-get($theme-colors, "secondary");
+        font-weight: 100;
+      }
     }
   }
 }
