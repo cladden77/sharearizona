@@ -24,5 +24,10 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>
+        <div class="row">
+            <div class="col mt-5 text-center">
+                <a class="button button--primary" href="@sub('cta_button', 'url')">@sub('cta_button', 'title')</a>
+            </div>
+        </div>
     </div>
 </section>
