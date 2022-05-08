@@ -1,0 +1,23 @@
+.button {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1em 3em;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.25em;
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s ease !important;
+
+  &--primary {
+    color: $white;
+    background-color: map-get($theme-colors, "primary");
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

@@ -10,8 +10,8 @@
        <?php if( get_row_layout() == 'one_col' ): ?>
           @include('flexible-content.one-col')
       <?php endif; ?>
-      <?php if( get_row_layout() == 'about' ): ?>
-          @include('flexible-content.about')
+      <?php if( get_row_layout() == 'three_col' ): ?>
+          @include('flexible-content.three-col')
       <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>

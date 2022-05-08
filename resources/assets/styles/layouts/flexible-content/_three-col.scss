@@ -1,4 +1,18 @@
 // Three Column
 .three-col {
-  background-color: map-get($theme-colors, "secondary");
+  background-color: #dedede;
+
+  img {
+    max-width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    color: map-get($theme-colors, "secondary");
+  }
+
+  p {
+    color: map-get($theme-colors, "secondary");
+    font-weight: 100;
+  }
 }
