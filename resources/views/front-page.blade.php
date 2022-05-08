@@ -13,6 +13,9 @@
       <?php if( get_row_layout() == 'three_col' ): ?>
           @include('flexible-content.three-col')
       <?php endif; ?>
+      <?php if( get_row_layout() == 'listings' ): ?>
+          @include('flexible-content.listings')
+      <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>
 
