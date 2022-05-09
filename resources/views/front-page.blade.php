@@ -16,6 +16,9 @@
       <?php if( get_row_layout() == 'listings' ): ?>
           @include('flexible-content.listings')
       <?php endif; ?>
+      <?php if( get_row_layout() == 'contact' ): ?>
+      @include('flexible-content.contact')
+  <?php endif; ?>
   <?php endwhile; ?>
 <?php endif; ?>
 

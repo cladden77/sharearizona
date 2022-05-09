@@ -20,4 +20,14 @@
       color: $white;
     }
   }
+
+  &--secondary {
+    border: 1px solid #dedede;
+    color: map-get($theme-colors, "lightGrey");
+    background-color: #dedede;
+  }
+
+  &:hover {
+    background-color: map-get($theme-colors, "lightGrey");
+  }
 }
