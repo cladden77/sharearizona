@@ -7,3 +7,13 @@ npm-debug.log
 yarn-error.log
 /vendor
 resources/assets/config-local.json
+resources/.DS_Store
+resources/assets/.DS_Store
+.gitignore
+resources/assets/build/.DS_Store
+.gitignore
+resources/assets/scripts/.DS_Store
+resources/assets/styles/.DS_Store
+resources/views/.DS_Store
+resources/views/.DS_Store
+resources/views/.DS_Store
