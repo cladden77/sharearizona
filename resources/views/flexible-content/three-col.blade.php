@@ -1,4 +1,4 @@
-<section class="three-col">
+<section class="three-col" id="@sub('three_col_id')">
     <div class="container p-5">
         <div class="row justify-content-center align-items-top">
             <div class="col-12 col-md-4 col-sm-12 text-center pt-5">

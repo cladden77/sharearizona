@@ -1,6 +1,6 @@
 {{-- One Column blade --}}
 
-<section class="container one-col">
+<section class="container one-col" id="@sub('one_col_id')">
     <div class="row">
         <div class="col-10 one-col__wrapper">
           @hassub('one_col_header')

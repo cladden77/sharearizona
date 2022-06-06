@@ -1,6 +1,6 @@
 <?php $form_id = get_sub_field('contact_form'); ?>
 
-<section class="contact py-5" style="background: rgb(0,54,88);
+<section id="@sub('contact_id')" class="contact py-5" style="background: rgb(0,54,88);
 background: linear-gradient(0deg, rgba(0,54,88,0.75) 0%, rgba(0,54,88,1) 97%), url('@sub('contact_bg', 'url')') center center/cover no-repeat; ">
     <div class="container">
         <div class="row justify-content-center align-items-center">
